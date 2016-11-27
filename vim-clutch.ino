@@ -29,6 +29,7 @@ void insertMode() {
     Keyboard.press('[');
     Keyboard.releaseAll();
     delay(100);
+    Keyboard.write("l");
     Keyboard.write("i");
     digitalWrite(led, HIGH);
     mode = 'i';
